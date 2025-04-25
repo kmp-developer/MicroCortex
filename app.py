@@ -30,13 +30,17 @@ def home_page():
                 color: #555;
                 margin-bottom: 2rem;
             }
+            .description-container {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto 2rem auto;
+            }
             .description {
                 font-size: 1.2rem;
                 text-align: center;
-                max-width: 800px;
-                margin: 0 auto 2rem auto;
                 color: #333;
                 line-height: 1.6;
+                max-width: 800px;
             }
             .action-btn {
                 display: inline-block;
@@ -101,10 +105,18 @@ def home_page():
     # Main content
     st.markdown('<h1 class="main-header"><i class="fas fa-brain"></i> Micro Cortex</h1>', unsafe_allow_html=True)
     st.markdown('<h2 class="sub-header"><i class="fas fa-search"></i> Revolutionizing Search with Intent-Based AI</h2>', unsafe_allow_html=True)
-    st.markdown(
-        '<p class="description">Welcome to Micro Cortex — your intelligent search assistant. Our AI-driven system understands the intent behind your queries, delivering precise and context-aware results. Experience the future of search today!</p>',
-        unsafe_allow_html=True)
 
+    # Description centered
+    st.markdown("""
+        <div class="description-container">
+            <p class="description">
+                Welcome to <strong>Micro Cortex</strong> — your intelligent search assistant.<br>
+                Our AI-driven system understands the <em>intent</em> behind your queries, delivering precise and context-aware results.<br>
+                <br>
+                Experience the future of search today.
+            </p>
+        </div>
+    """, unsafe_allow_html=True)
     # Action buttons
     st.markdown("""
         <div class="button-container">
