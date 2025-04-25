@@ -28,7 +28,7 @@ def render_navbar():
             }
         </style>
         <div class="top-nav">
-            <div class="logo">Micro Cortex</div>
+            <div class="logo" href="/">Micro Cortex</div>
             <div class="nav-links">
                 <a href="/" target="_self">Home</a>
                 <a href="/search" target="_self">Search</a>
@@ -36,10 +36,6 @@ def render_navbar():
             </div>
         </div>
     """, unsafe_allow_html=True)
-
-
-# utils.py
-import streamlit as st
 
 def setup_page(title="Micro Cortex"):
     # Set page configuration

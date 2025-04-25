@@ -13,7 +13,7 @@ def render():
     st.markdown(
         """
         <h1 style="text-align: center; margin-bottom: 3rem; color: #4F8BF9;">
-            About "Team Micro Cortex"
+            About Team "Micro Cortex"
         </h1>
         """,
         unsafe_allow_html=True
