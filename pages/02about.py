@@ -96,7 +96,7 @@ def render():
                              alt="Dr. Eliza Chen" style="object-fit: cover;">
                     </div>
                     <h3 style="margin-top: 1rem;">Abu Naser</h3>
-                    <p style="color: #4F8BF9; font-weight: 500;">Kotlin Developer | Tech Enthusiast</p>
+                    <p style="color: #4F8BF9; font-weight: 500;">Engineer @Micro Cortex</p>
                 </div>
                 <h5 style="margin-top: 1rem;">
                 Self-Taught Kotlin Multiplatform Developer Crafting Apps for Android, iOS, Web, and Beyond
